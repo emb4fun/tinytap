@@ -11,3 +11,9 @@ It offers a smarter way to observe, filter, and forward serial traffic – ideal f
 > No virtual COM ports. No device drivers. Just clean data on the loopback interface.
 
 A minimal CLI tool receives the raw stream from TinyTAP and forwards it to the loopback interface, where a dedicated Wireshark dissector (included in this project) interprets the data.
+
+
+## License
+
+This project is licensed under the [BSD 3-Clause License](license.txt).  
+See the LICENSE file for full text and conditions.
