@@ -1,0 +1,82 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <BreakpointListItem trigger="" line="361" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" stopAll="false" group="Breakpoints" type="Breakpoint" state="2" filename="../src/main.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="531" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" stopAll="false" group="Breakpoints" type="Breakpoint" state="2" filename="../src/main.c" useHWbreakpoint="false"/>
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault;SecureFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBuffer>
+  <FrameBufferWindow width="0" keepAspectRatio="0" zoomToFitWindow="0" showGrid="0" addressSpace="" format="0" height="0" autoEvaluate="0" scaleFactor="1" refreshPeriod="0" name="frdmn947-boot-sd_TCM Debug" addressText="" accessByDisplayWidth="0"/>
+  <FrameBufferWindow width="0" keepAspectRatio="0" zoomToFitWindow="0" showGrid="0" addressSpace="" format="0" height="0" autoEvaluate="0" scaleFactor="1" refreshPeriod="0" name="frdmn947-boot-sd_Flash to TCM Release" addressText="" accessByDisplayWidth="0"/>
+ </FrameBuffer>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="frdmn947-boot-sd_TCM Debug" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="frdmn947-boot-sd_Flash to TCM Release" sizeText="" addressText=""/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="frdmn947-boot-sd_TCM Debug" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="frdmn947-boot-sd_Flash to TCM Release" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="frdmn947-boot-sd_TCM Debug" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="frdmn947-boot-sd_Flash to TCM Release" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="frdmn947-boot-sd_TCM Debug" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="frdmn947-boot-sd_Flash to TCM Release" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="frdmn947-boot-sd"/>
+  <ProjectSessionItem path="frdmn947-boot-sd;frdmn947-boot-sd"/>
+  <ProjectSessionItem path="frdmn947-boot-sd;frdmn947-boot-sd;Source Files"/>
+  <ProjectSessionItem path="frdmn947-boot-sd;frdmn947-boot-sd;Source Files;library"/>
+  <ProjectSessionItem path="frdmn947-boot-sd;frdmn947-boot-sd;Source Files;library;fatfs"/>
+  <ProjectSessionItem path="frdmn947-boot-sd;frdmn947-boot-sd;Source Files;library;tal"/>
+  <ProjectSessionItem path="frdmn947-boot-sd;frdmn947-boot-sd;Source Files;library;tal;cpu"/>
+  <ProjectSessionItem path="frdmn947-boot-sd;frdmn947-boot-sd;Source Files;src"/>
+ </Project>
+ <Register1>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/MSPLIM;CPU/PSPLIM;CPU/internal;CPU Secure/MSP_S;CPU Secure/PSP_S;CPU Secure/MSPLIM_S;CPU Secure/PSPLIM_S;CPU Secure/PRIMASK_S;CPU Secure/BASEPRI_S;CPU Secure/FAULTMASK_S;CPU Secure/CONTROL_S;CPU Non-Secure/MSP_NS;CPU Non-Secure/PSP_NS;CPU Non-Secure/MSPLIM_NS;CPU Non-Secure/PSPLIM_NS;CPU Non-Secure/PRIMASK_NS;CPU Non-Secure/BASEPRI_NS;CPU Non-Secure/FAULTMASK_NS;CPU Non-Secure/CONTROL_NS" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="frdmn947-boot-sd_TCM Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/MSPLIM;CPU/PSPLIM;CPU/internal;CPU Secure/MSP_S;CPU Secure/PSP_S;CPU Secure/MSPLIM_S;CPU Secure/PSPLIM_S;CPU Secure/PRIMASK_S;CPU Secure/BASEPRI_S;CPU Secure/FAULTMASK_S;CPU Secure/CONTROL_S;CPU Non-Secure/MSP_NS;CPU Non-Secure/PSP_NS;CPU Non-Secure/MSPLIM_NS;CPU Non-Secure/PSPLIM_NS;CPU Non-Secure/PRIMASK_NS;CPU Non-Secure/BASEPRI_NS;CPU Non-Secure/FAULTMASK_NS;CPU Non-Secure/CONTROL_NS" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="frdmn947-boot-sd_Flash to TCM Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/MSPLIM;CPU/PSPLIM;CPU/internal;CPU Secure/MSP_S;CPU Secure/PSP_S;CPU Secure/MSPLIM_S;CPU Secure/PSPLIM_S;CPU Secure/PRIMASK_S;CPU Secure/BASEPRI_S;CPU Secure/FAULTMASK_S;CPU Secure/CONTROL_S;CPU Non-Secure/MSP_NS;CPU Non-Secure/PSP_NS;CPU Non-Secure/MSPLIM_NS;CPU Non-Secure/PSPLIM_NS;CPU Non-Secure/PRIMASK_NS;CPU Non-Secure/BASEPRI_NS;CPU Non-Secure/FAULTMASK_NS;CPU Non-Secure/CONTROL_NS" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="frdmn947-boot-sd_TCM Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/MSPLIM;CPU/PSPLIM;CPU/internal;CPU Secure/MSP_S;CPU Secure/PSP_S;CPU Secure/MSPLIM_S;CPU Secure/PSPLIM_S;CPU Secure/PRIMASK_S;CPU Secure/BASEPRI_S;CPU Secure/FAULTMASK_S;CPU Secure/CONTROL_S;CPU Non-Secure/MSP_NS;CPU Non-Secure/PSP_NS;CPU Non-Secure/MSPLIM_NS;CPU Non-Secure/PSPLIM_NS;CPU Non-Secure/PRIMASK_NS;CPU Non-Secure/BASEPRI_NS;CPU Non-Secure/FAULTMASK_NS;CPU Non-Secure/CONTROL_NS" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="frdmn947-boot-sd_Flash to TCM Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/MSPLIM;CPU/PSPLIM;CPU/internal;CPU Secure/MSP_S;CPU Secure/PSP_S;CPU Secure/MSPLIM_S;CPU Secure/PSPLIM_S;CPU Secure/PRIMASK_S;CPU Secure/BASEPRI_S;CPU Secure/FAULTMASK_S;CPU Secure/CONTROL_S;CPU Non-Secure/MSP_NS;CPU Non-Secure/PSP_NS;CPU Non-Secure/MSPLIM_NS;CPU Non-Secure/PSPLIM_NS;CPU Non-Secure/PRIMASK_NS;CPU Non-Secure/BASEPRI_NS;CPU Non-Secure/FAULTMASK_NS;CPU Non-Secure/CONTROL_NS" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="frdmn947-boot-sd_TCM Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/MSPLIM;CPU/PSPLIM;CPU/internal;CPU Secure/MSP_S;CPU Secure/PSP_S;CPU Secure/MSPLIM_S;CPU Secure/PSPLIM_S;CPU Secure/PRIMASK_S;CPU Secure/BASEPRI_S;CPU Secure/FAULTMASK_S;CPU Secure/CONTROL_S;CPU Non-Secure/MSP_NS;CPU Non-Secure/PSP_NS;CPU Non-Secure/MSPLIM_NS;CPU Non-Secure/PSPLIM_NS;CPU Non-Secure/PRIMASK_NS;CPU Non-Secure/BASEPRI_NS;CPU Non-Secure/FAULTMASK_NS;CPU Non-Secure/CONTROL_NS" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="frdmn947-boot-sd_Flash to TCM Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/MSPLIM;CPU/PSPLIM;CPU/internal;CPU Secure/MSP_S;CPU Secure/PSP_S;CPU Secure/MSPLIM_S;CPU Secure/PSPLIM_S;CPU Secure/PRIMASK_S;CPU Secure/BASEPRI_S;CPU Secure/FAULTMASK_S;CPU Secure/CONTROL_S;CPU Non-Secure/MSP_NS;CPU Non-Secure/PSP_NS;CPU Non-Secure/MSPLIM_NS;CPU Non-Secure/PSPLIM_NS;CPU Non-Secure/PRIMASK_NS;CPU Non-Secure/BASEPRI_NS;CPU Non-Secure/FAULTMASK_NS;CPU Non-Secure/CONTROL_NS" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="frdmn947-boot-sd_TCM Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/MSPLIM;CPU/PSPLIM;CPU/internal;CPU Secure/MSP_S;CPU Secure/PSP_S;CPU Secure/MSPLIM_S;CPU Secure/PSPLIM_S;CPU Secure/PRIMASK_S;CPU Secure/BASEPRI_S;CPU Secure/FAULTMASK_S;CPU Secure/CONTROL_S;CPU Non-Secure/MSP_NS;CPU Non-Secure/PSP_NS;CPU Non-Secure/MSPLIM_NS;CPU Non-Secure/PSPLIM_NS;CPU Non-Secure/PRIMASK_NS;CPU Non-Secure/BASEPRI_NS;CPU Non-Secure/FAULTMASK_NS;CPU Non-Secure/CONTROL_NS" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="frdmn947-boot-sd_Flash to TCM Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="439" useTextEdit="1" path="../src/main.c" left="0" selected="1" top="422" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="527" useTextEdit="1" path="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/src/talcpu.c" left="0" top="509" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="5145" useTextEdit="1" path="../../firmware/common/library/fatfs/src/ff.c" left="0" top="5120" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="19" y="252" useTextEdit="1" path="../../firmware/common/library/fatfs/src/ff.h" left="0" top="244" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="148" useTextEdit="1" path="../incprj/ffconf.h" left="0" top="135" codecName="Default"/>
+ </Files>
+ <EMStudioWindow activeProject="frdmn947-boot-sd" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Flash to TCM Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>

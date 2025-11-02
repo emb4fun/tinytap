@@ -1,0 +1,18 @@
+***************************************************************************
+* Project: frdmn947-mbrtu-tap
+* Name   : "TinyTAP a smarter way to analyze Modbus RTU with Wireshark"
+* Target : NXP FRDM-MCXN947
+* Version: 20251102
+***************************************************************************
+* Tools  : SEGGER Embedded Studio v8.24
+***************************************************************************
+* URL    : https://emb4fun.de/projects/ttap/index.html
+***************************************************************************
+
+= Version 0.80, 02.11.2025
+   * First version for GitHub.
+   * Bootloader v1.00
+   * Firmware v0.80
+   * tinytap (cli) v0.80
+
+***************************************************************************

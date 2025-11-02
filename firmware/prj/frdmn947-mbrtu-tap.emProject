@@ -1,0 +1,380 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="frdmn947-mbrtu-tap" target="8" version="2">
+  <configuration Name="Debug" hidden="Yes" />
+  <configuration Name="Flash" hidden="Yes" />
+  <configuration Name="Flash Debug" inherited_configurations="Debug;Flash" />
+  <configuration
+    Name="Flash Release"
+    inherited_configurations="Flash;Release" />
+  <configuration Name="Release" hidden="Yes" />
+  <project Name="frdmn947-mbrtu-tap">
+    <configuration
+      CMSIS_CORE="Yes"
+      Name="Common"
+      WARNING_LEVEL="4 (All)"
+      arm_architecture="v8M_Mainline"
+      arm_compiler_variant="gcc"
+      arm_core_type="Cortex-M33"
+      arm_endian="Little"
+      arm_fp_abi="Hard"
+      arm_fpu_type="FPv5-SP-D16"
+      arm_linker_heap_size="16"
+      arm_linker_process_stack_size="1024"
+      arm_linker_stack_size="1024"
+      arm_supply_absolute_file_path="No"
+      arm_target_device_name="MCXN947_M33_0"
+      arm_target_interface_type="SWD"
+      arm_unaligned_access="No"
+      build_intermediate_directory="$(Configuration)"
+      build_output_directory="$(Configuration)"
+      c_preprocessor_definitions="CPU_MCXN947;CPU_MCXN947VDF_cm33_core0;INITIALIZE_STACK;USE_BOARD_FRDMN947;RTOS_TCTS;FSL_SDK_ENABLE_DRIVER_CACHE_CONTROL=1;SD_ENABLED"
+      c_user_include_directories="../incprj;../common/inc;../common/library/tcts/inc;../common/library/tal_frdmn947/board/frdmn947/inc;../common/library/tal_frdmn947/core/inc;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/cmsis/core;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/cmsis/device;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/periph;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/romapi/flash;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/lists;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/osa;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/osa/config;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/silicon_id;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/gpio;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/phy;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/els_pkc/src/compiler;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/els_pkc/src/platforms/mcxn;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/els_pkc/src/platforms/mcxn/inc;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/els_pkc/src/comps/mcuxClBuffer/inc;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/els_pkc/src/comps/mcuxClCore/inc;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/els_pkc/src/comps/mcuxClEls/inc;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/els_pkc/src/comps/mcuxClMemory/inc;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/els_pkc/src/comps/mcuxClRandom/inc;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/els_pkc/src/comps/mcuxClSession/inc;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/els_pkc/src/comps/mcuxCsslCPreProcessor/inc;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/els_pkc/src/comps/mcuxCsslFlowProtection/inc;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/els_pkc/src/comps/mcuxCsslSecureCounter/inc;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/middleware/sdmmc/common;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/middleware/sdmmc/host/usdhc;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/middleware/sdmmc/osa;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/middleware/sdmmc/sd;../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/inc;../common/library/ipapi/inc;../common/library/ipapi/phy;../common/library/ipweb/inc;../common/library/jsmn;../common/library/lwip/src/include;../common/library/lwip/src/include/ipv4;../common/library/lwip_port/dev;../common/library/lwip_port/os;../common/library/uhttp/inc;../common/library/uhttp/addon/inc;../common/library/fsapi/inc;../common/library/fatfs/src;../common/library/adler32;../common/library/base32;../common/library/minini/dev;../common/library/mbedtls/include;../inc"
+      debug_register_definition_file="$(ProjectDir)/MCXN947_cm33_core0_registers.xml"
+      debug_stack_pointer_start="__stack_end__"
+      debug_start_from_entry_point_symbol="Yes"
+      debug_target_connection="J-Link"
+      gcc_entry_point="Reset_Handler"
+      gcc_main_return_type="Yes"
+      gcc_main_warning="Yes"
+      gcc_strict_prototypes_warning="Yes"
+      gcc_uninitialized_variables_warning="Yes"
+      gcc_unused_variable_warning="Yes"
+      linker_memory_map_file="$(ProjectDir)/MCXN947_MemoryMap.xml"
+      linker_printf_fmt_level="long long"
+      linker_printf_width_precision_supported="Yes"
+      project_directory=""
+      project_type="Executable"
+      target_reset_script="Reset();"
+      target_script_file="$(ProjectDir)/MCXN947_Target.js"
+      target_trace_initialize_script="EnableTrace(&quot;$(TraceInterfaceType)&quot;)" />
+    <configuration Name="Debug" c_preprocessor_definitions="__DEBUG__" />
+    <configuration
+      Name="Flash"
+      c_preprocessor_definitions="__FLASH__;__VECTORS_IN_RAM"
+      linker_section_placement_file="$(ProjectDir)/placement_flash.xml"
+      linker_section_placements_segments="" />
+    <configuration Name="Flash Release" linker_output_format="bin" />
+    <configuration
+      Name="Release"
+      c_preprocessor_definitions="__RELEASE__"
+      gcc_optimization_level="Level 2 balanced" />
+    <folder Name="Source Files">
+      <configuration Name="Common" filter="c;cpp;cxx;cc;h;s;asm;inc" />
+      <folder Name="common">
+        <folder Name="library">
+          <folder Name="adler32">
+            <file file_name="../common/library/adler32/adler32.c" />
+          </folder>
+          <folder Name="base32">
+            <file file_name="../common/library/base32/base32.c" />
+          </folder>
+          <folder Name="fatfs">
+            <file file_name="../common/library/fatfs/src/ff.c" />
+            <file file_name="../common/library/fatfs/src/ffunicode.c" />
+          </folder>
+          <folder Name="fsapi">
+            <file file_name="../common/library/fsapi/src/fs_fatfs.c" />
+            <file file_name="../common/library/fsapi/src/fs_romfs.c" />
+            <file file_name="../common/library/fsapi/src/fs_xfile_dummy.c" />
+            <file file_name="../common/library/fsapi/src/fsapi.c" />
+          </folder>
+          <folder Name="ipapi">
+            <file file_name="../common/library/ipapi/src/ip_dhcp.c" />
+            <file file_name="../common/library/ipapi/src/ip_dhcpserver.c" />
+            <file file_name="../common/library/ipapi/src/ip_dns.c" />
+            <file file_name="../common/library/ipapi/src/ip_mdns.c" />
+            <file file_name="../common/library/ipapi/src/ip_sntp.c" />
+            <file file_name="../common/library/ipapi/src/ip_sntpserver.c" />
+            <file file_name="../common/library/ipapi/src/ip_syslog.c" />
+            <file file_name="../common/library/ipapi/src/ip_tnp.c" />
+            <file file_name="../common/library/ipapi/src/ipstack.c" />
+          </folder>
+          <folder Name="ipweb">
+            <file file_name="../common/library/ipweb/src/ipweb.c" />
+            <file file_name="../common/library/ipweb/src/web_api.c" />
+            <file file_name="../common/library/ipweb/src/web_cgi.c" />
+            <file file_name="../common/library/ipweb/src/web_json.c" />
+            <file file_name="../common/library/ipweb/src/web_login.c" />
+            <file file_name="../common/library/ipweb/src/web_login_dummy.c" />
+            <file file_name="../common/library/ipweb/src/web_sid.c" />
+            <file file_name="../common/library/ipweb/src/web_sid_dummy.c" />
+            <file file_name="../common/library/ipweb/src/web_ssi.c" />
+            <file file_name="../common/library/ipweb/src/web_ssl.c" />
+            <file file_name="../common/library/ipweb/src/web_user.c" />
+          </folder>
+          <folder Name="lwip">
+            <folder Name="api">
+              <file file_name="../common/library/lwip/src/api/api_lib.c" />
+              <file file_name="../common/library/lwip/src/api/api_msg.c" />
+              <file file_name="../common/library/lwip/src/api/err.c" />
+              <file file_name="../common/library/lwip/src/api/netbuf.c" />
+              <file file_name="../common/library/lwip/src/api/netdb.c" />
+              <file file_name="../common/library/lwip/src/api/netifapi.c" />
+              <file file_name="../common/library/lwip/src/api/sockets.c" />
+              <file file_name="../common/library/lwip/src/api/tcpip.c" />
+            </folder>
+            <folder Name="core">
+              <folder Name="ipv4">
+                <file file_name="../common/library/lwip/src/core/ipv4/acd.c" />
+                <file file_name="../common/library/lwip/src/core/ipv4/autoip.c" />
+                <file file_name="../common/library/lwip/src/core/ipv4/dhcp.c" />
+                <file file_name="../common/library/lwip/src/core/ipv4/etharp.c" />
+                <file file_name="../common/library/lwip/src/core/ipv4/icmp.c" />
+                <file file_name="../common/library/lwip/src/core/ipv4/igmp.c" />
+                <file file_name="../common/library/lwip/src/core/ipv4/ip4.c" />
+                <file file_name="../common/library/lwip/src/core/ipv4/ip4_addr.c" />
+                <file file_name="../common/library/lwip/src/core/ipv4/ip4_frag.c" />
+              </folder>
+              <folder Name="ipv6">
+                <file file_name="../common/library/lwip/src/core/ipv6/dhcp6.c" />
+                <file file_name="../common/library/lwip/src/core/ipv6/ethip6.c" />
+                <file file_name="../common/library/lwip/src/core/ipv6/icmp6.c" />
+                <file file_name="../common/library/lwip/src/core/ipv6/inet6.c" />
+                <file file_name="../common/library/lwip/src/core/ipv6/ip6.c" />
+                <file file_name="../common/library/lwip/src/core/ipv6/ip6_addr.c" />
+                <file file_name="../common/library/lwip/src/core/ipv6/ip6_frag.c" />
+                <file file_name="../common/library/lwip/src/core/ipv6/mld6.c" />
+                <file file_name="../common/library/lwip/src/core/ipv6/nd6.c" />
+              </folder>
+              <file file_name="../common/library/lwip/src/core/def.c" />
+              <file file_name="../common/library/lwip/src/core/dns.c" />
+              <file file_name="../common/library/lwip/src/core/inet_chksum.c" />
+              <file file_name="../common/library/lwip/src/core/init.c" />
+              <file file_name="../common/library/lwip/src/core/ip.c" />
+              <file file_name="../common/library/lwip/src/core/mem.c" />
+              <file file_name="../common/library/lwip/src/core/memp.c" />
+              <file file_name="../common/library/lwip/src/core/netif.c" />
+              <file file_name="../common/library/lwip/src/core/pbuf.c" />
+              <file file_name="../common/library/lwip/src/core/stats.c" />
+              <file file_name="../common/library/lwip/src/core/tcp.c" />
+              <file file_name="../common/library/lwip/src/core/tcp_in.c" />
+              <file file_name="../common/library/lwip/src/core/tcp_out.c" />
+              <file file_name="../common/library/lwip/src/core/timeouts.c" />
+              <file file_name="../common/library/lwip/src/core/udp.c" />
+            </folder>
+            <folder Name="netif">
+              <file file_name="../common/library/lwip/src/netif/ethernet.c" />
+            </folder>
+          </folder>
+          <folder Name="lwip_port">
+            <folder Name="dev">
+              <file file_name="../common/library/lwip_port/dev/ethernetif_lpc.c" />
+            </folder>
+            <folder Name="os">
+              <file file_name="../common/library/lwip_port/os/sys_arch_tcts.c" />
+            </folder>
+          </folder>
+          <folder Name="mbedtls">
+            <file file_name="../common/library/mbedtls/library/aes.c" />
+            <file file_name="../common/library/mbedtls/library/asn1parse.c" />
+            <file file_name="../common/library/mbedtls/library/asn1write.c" />
+            <file file_name="../common/library/mbedtls/library/base64.c" />
+            <file file_name="../common/library/mbedtls/library/bignum.c" />
+            <file file_name="../common/library/mbedtls/library/bignum_core.c" />
+            <file file_name="../common/library/mbedtls/library/ccm.c" />
+            <file file_name="../common/library/mbedtls/library/chacha20.c" />
+            <file file_name="../common/library/mbedtls/library/chachapoly.c" />
+            <file file_name="../common/library/mbedtls/library/cipher.c" />
+            <file file_name="../common/library/mbedtls/library/cipher_wrap.c" />
+            <file file_name="../common/library/mbedtls/library/constant_time.c" />
+            <file file_name="../common/library/mbedtls/library/ctr_drbg.c" />
+            <file file_name="../common/library/mbedtls/library/debug.c" />
+            <file file_name="../common/library/mbedtls/library/ecdh.c" />
+            <file file_name="../common/library/mbedtls/library/ecdsa.c" />
+            <file file_name="../common/library/mbedtls/library/ecp.c" />
+            <file file_name="../common/library/mbedtls/library/ecp_curves.c" />
+            <file file_name="../common/library/mbedtls/library/entropy.c" />
+            <file file_name="../common/library/mbedtls/library/gcm.c" />
+            <file file_name="../common/library/mbedtls/library/hmac_drbg.c" />
+            <file file_name="../common/library/mbedtls/library/md.c" />
+            <file file_name="../common/library/mbedtls/library/nist_kw.c" />
+            <file file_name="../common/library/mbedtls/library/oid.c" />
+            <file file_name="../common/library/mbedtls/library/pem.c" />
+            <file file_name="../common/library/mbedtls/library/pk.c" />
+            <file file_name="../common/library/mbedtls/library/pk_ecc.c" />
+            <file file_name="../common/library/mbedtls/library/pk_wrap.c" />
+            <file file_name="../common/library/mbedtls/library/pkcs12.c" />
+            <file file_name="../common/library/mbedtls/library/pkcs5.c" />
+            <file file_name="../common/library/mbedtls/library/pkparse.c" />
+            <file file_name="../common/library/mbedtls/library/pkwrite.c" />
+            <file file_name="../common/library/mbedtls/library/platform.c" />
+            <file file_name="../common/library/mbedtls/library/platform_util.c" />
+            <file file_name="../common/library/mbedtls/library/poly1305.c" />
+            <file file_name="../common/library/mbedtls/library/psa_crypto.c" />
+            <file file_name="../common/library/mbedtls/library/psa_crypto_cipher.c" />
+            <file file_name="../common/library/mbedtls/library/psa_crypto_client.c" />
+            <file file_name="../common/library/mbedtls/library/psa_crypto_driver_wrappers_no_static.c" />
+            <file file_name="../common/library/mbedtls/library/psa_crypto_ecp.c" />
+            <file file_name="../common/library/mbedtls/library/psa_crypto_hash.c" />
+            <file file_name="../common/library/mbedtls/library/psa_crypto_mac.c" />
+            <file file_name="../common/library/mbedtls/library/psa_crypto_slot_management.c" />
+            <file file_name="../common/library/mbedtls/library/psa_util.c" />
+            <file file_name="../common/library/mbedtls/library/sha1.c" />
+            <file file_name="../common/library/mbedtls/library/sha256.c" />
+            <file file_name="../common/library/mbedtls/library/sha512.c" />
+            <file file_name="../common/library/mbedtls/library/ssl_cache.c" />
+            <file file_name="../common/library/mbedtls/library/ssl_ciphersuites.c" />
+            <file file_name="../common/library/mbedtls/library/ssl_client.c" />
+            <file file_name="../common/library/mbedtls/library/ssl_cookie.c" />
+            <file file_name="../common/library/mbedtls/library/ssl_msg.c" />
+            <file file_name="../common/library/mbedtls/library/ssl_ticket.c" />
+            <file file_name="../common/library/mbedtls/library/ssl_tls.c" />
+            <file file_name="../common/library/mbedtls/library/ssl_tls12_client.c" />
+            <file file_name="../common/library/mbedtls/library/ssl_tls12_server.c" />
+            <file file_name="../common/library/mbedtls/library/ssl_tls13_client.c" />
+            <file file_name="../common/library/mbedtls/library/ssl_tls13_generic.c" />
+            <file file_name="../common/library/mbedtls/library/ssl_tls13_keys.c" />
+            <file file_name="../common/library/mbedtls/library/ssl_tls13_server.c" />
+            <file file_name="../common/library/mbedtls/library/x509.c" />
+            <file file_name="../common/library/mbedtls/library/x509_create.c" />
+            <file file_name="../common/library/mbedtls/library/x509_crl.c" />
+            <file file_name="../common/library/mbedtls/library/x509_crt.c" />
+            <file file_name="../common/library/mbedtls/library/x509_csr.c" />
+            <file file_name="../common/library/mbedtls/library/x509write_csr.c" />
+          </folder>
+          <folder Name="minini">
+            <file file_name="../common/library/minini/dev/minIni.c" />
+          </folder>
+          <folder Name="tal">
+            <folder Name="board">
+              <file file_name="../common/library/tal_frdmn947/board/frdmn947/src/clock_config.c" />
+              <file file_name="../common/library/tal_frdmn947/board/frdmn947/src/eth_config.c" />
+              <file file_name="../common/library/tal_frdmn947/board/frdmn947/src/fatfs_diskio.c" />
+              <file file_name="../common/library/tal_frdmn947/board/frdmn947/src/pin_mux.c" />
+              <file file_name="../common/library/tal_frdmn947/board/frdmn947/src/sdmmc_config.c" />
+              <file file_name="../common/library/tal_frdmn947/board/frdmn947/src/talboard.c" />
+              <file file_name="../common/library/tal_frdmn947/board/frdmn947/src/talgpio.c" />
+              <file file_name="../common/library/tal_frdmn947/board/frdmn947/src/talled.c" />
+            </folder>
+            <folder Name="core">
+              <file file_name="../common/library/tal_frdmn947/core/src/tal.c" />
+              <file file_name="../common/library/tal_frdmn947/core/src/talcom.c" />
+              <file file_name="../common/library/tal_frdmn947/core/src/taldebug.c" />
+              <file file_name="../common/library/tal_frdmn947/core/src/talmem.c" />
+              <file file_name="../common/library/tal_frdmn947/core/src/talmisc.c" />
+            </folder>
+            <folder Name="cpu">
+              <folder Name="sdk">
+                <folder Name="cmsis">
+                  <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/cmsis/device/system_MCXN947_cm33_core0.c">
+                    <configuration
+                      Name="Common"
+                      default_code_section=".init"
+                      default_const_section=".init_rodata" />
+                  </file>
+                </folder>
+                <folder Name="components">
+                  <folder Name="els_pkc">
+                    <folder Name="mcuxClEls">
+                      <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/els_pkc/src/comps/mcuxClEls/src/mcuxClEls_Common.c" />
+                      <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/els_pkc/src/comps/mcuxClEls/src/mcuxClEls_KeyManagement.c" />
+                      <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/els_pkc/src/comps/mcuxClEls/src/mcuxClEls_Rng.c" />
+                    </folder>
+                    <folder Name="platform">
+                      <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/els_pkc/src/platforms/mcxn/mcux_els.c" />
+                    </folder>
+                  </folder>
+                  <folder Name="gpio">
+                    <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/gpio/fsl_adapter_gpio.c" />
+                  </folder>
+                  <folder Name="phy">
+                    <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/phy/device/phylan8741/fsl_phylan8741.c" />
+                  </folder>
+                  <folder Name="silicon_id">
+                    <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/silicon_id/fsl_silicon_id.c" />
+                    <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/silicon_id/socs/mcxn/fsl_silicon_id_soc.c" />
+                  </folder>
+                </folder>
+                <folder Name="drivers">
+                  <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_cache.c" />
+                  <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_clock.c" />
+                  <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_common_arm.c" />
+                  <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_enet.c" />
+                  <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/romapi/flash/src/fsl_flash.c" />
+                  <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_gpio.c" />
+                  <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_lpflexcomm.c" />
+                  <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_lpuart.c" />
+                  <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_reset.c" />
+                  <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_spc.c" />
+                  <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_usdhc.c" />
+                  <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_wwdt.c" />
+                </folder>
+                <folder Name="osa_port">
+                  <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/osa_port/fsl_os_abstraction_tcts.c" />
+                </folder>
+                <folder Name="sdmmc">
+                  <folder Name="common">
+                    <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/middleware/sdmmc/common/fsl_sdmmc_common.c" />
+                  </folder>
+                  <folder Name="host">
+                    <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/middleware/sdmmc/host/usdhc/non_blocking/fsl_sdmmc_host.c" />
+                  </folder>
+                  <folder Name="osa">
+                    <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/middleware/sdmmc/osa/fsl_sdmmc_osa.c" />
+                  </folder>
+                  <folder Name="sd">
+                    <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/middleware/sdmmc/sd/fsl_sd.c" />
+                  </folder>
+                </folder>
+              </folder>
+              <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/src/talcpu.c" />
+              <file file_name="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/src/talcpu_com.c" />
+            </folder>
+          </folder>
+          <folder Name="tcts">
+            <file file_name="../common/library/tcts/src/tcts.c" />
+          </folder>
+          <folder Name="time">
+            <file file_name="../common/library/time/time.c" />
+            <file file_name="../common/library/time/time64.c" />
+          </folder>
+          <folder Name="uhttp">
+            <folder Name="modules">
+              <file file_name="../common/library/uhttp/src/modules/mod_auth_basic.c" />
+              <file file_name="../common/library/uhttp/src/modules/mod_cgi_func.c" />
+              <file file_name="../common/library/uhttp/src/modules/mod_redir.c" />
+              <file file_name="../common/library/uhttp/src/modules/mod_ssi.c" />
+            </folder>
+            <folder Name="os">
+              <file file_name="../common/library/uhttp/src/os/tcts/rfctime.c" />
+              <file file_name="../common/library/uhttp/src/os/tcts/streamio.c" />
+            </folder>
+            <file file_name="../common/library/uhttp/src/envinit.c" />
+            <file file_name="../common/library/uhttp/src/envreg.c" />
+            <file file_name="../common/library/uhttp/src/envvars.c" />
+            <file file_name="../common/library/uhttp/src/mediatypes.c" />
+            <file file_name="../common/library/uhttp/src/mtreg.c" />
+            <file file_name="../common/library/uhttp/src/responses.c" />
+            <file file_name="../common/library/uhttp/src/uhttpd.c" />
+            <file file_name="../common/library/uhttp/src/utils.c" />
+          </folder>
+        </folder>
+        <folder Name="src">
+          <file file_name="../common/src/cert.c" />
+          <file file_name="../common/src/elca_client.c" />
+          <file file_name="../common/src/etc.c" />
+          <file file_name="../common/src/fs.c" />
+          <file file_name="../common/src/minglue.c" />
+          <file file_name="../common/src/nvm.c" />
+          <file file_name="../common/src/terminal.c" />
+          <file file_name="../common/src/xbin.c" />
+        </folder>
+      </folder>
+      <folder Name="src">
+        <file file_name="../src/main.c" />
+        <file file_name="../src/mbrtu_tap.c" />
+        <file file_name="../src/mikroe.c" />
+        <file file_name="../src/xmempool.c" />
+      </folder>
+      <folder Name="webpage">
+        <file file_name="../../webpage/romfs_data.c" />
+        <file file_name="../../webpage/romfs_data_ns.c" />
+      </folder>
+    </folder>
+    <folder Name="System Files">
+      <file file_name="MCXN947_cm33_core0_Vectors.s" />
+      <file file_name="MCXN947_Startup.s" />
+      <file file_name="thumb_crt0.s" />
+    </folder>
+  </project>
+</solution>

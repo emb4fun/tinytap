@@ -1,0 +1,7 @@
+<!DOCTYPE Board_Memory_Definition_File>
+<root name="MCXN947">
+  <MemorySegment name="FLASH1"     start="0x00000000" size="0x00020000" access="ReadOnly" />   <!--  128K -->
+  <MemorySegment name="M_SRAMX"    start="0x04000000" size="0x00018000" access="Read/Write" /> <!--  96KB -->
+  <MemorySegment name="M_DATA"     start="0x20000000" size="0x00068000" access="Read/Write" /> <!-- 416KB -->
+  <MemorySegment name="M_USB_SRAM" start="0x400BA000" size="0x00001000" access="Read/Write" /> <!--   4KB -->
+</root>

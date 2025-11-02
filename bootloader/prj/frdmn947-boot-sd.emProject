@@ -1,0 +1,171 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="frdmn947-boot-sd" target="8" version="2">
+  <configuration Name="Debug" hidden="Yes" />
+  <configuration Name="Flash" hidden="Yes" />
+  <configuration
+    Name="Flash to TCM Debug"
+    inherited_configurations="Flast to TCM;Debug" />
+  <configuration
+    Name="Flash to TCM Release"
+    inherited_configurations="Flast to TCM;Release" />
+  <configuration Name="Flast to TCM" hidden="Yes" />
+  <configuration Name="Release" hidden="Yes" />
+  <configuration Name="TCM" hidden="Yes" />
+  <configuration Name="TCM Debug" inherited_configurations="TCM;Debug" />
+  <configuration Name="TCM Release" inherited_configurations="TCM;Release" />
+  <project Name="frdmn947-boot-sd">
+    <configuration
+      CMSIS_CORE="Yes"
+      Name="Common"
+      WARNING_LEVEL="4 (All)"
+      arm_architecture="v8M_Mainline"
+      arm_compiler_variant="gcc"
+      arm_core_type="Cortex-M33"
+      arm_endian="Little"
+      arm_fp_abi="Hard"
+      arm_fpu_type="FPv5-SP-D16"
+      arm_linker_heap_size="16"
+      arm_linker_process_stack_size="1024"
+      arm_linker_stack_size="1024"
+      arm_supply_absolute_file_path="No"
+      arm_target_device_name="MCXN947_M33_0"
+      arm_target_interface_type="SWD"
+      arm_unaligned_access="No"
+      build_intermediate_directory="$(Configuration)"
+      build_output_directory="$(Configuration)"
+      c_enforce_ansi_checking="Yes"
+      c_preprocessor_definitions="CPU_MCXN947;CPU_MCXN947VDF_cm33_core0;INITIALIZE_STACK;USE_BOARD_FRDMN947;RTOS_TCTS;FSL_SDK_ENABLE_DRIVER_CACHE_CONTROL=1;SD_ENABLED"
+      c_user_include_directories="../incprj;../../firmware/common/library/tcts/inc;../../firmware/common/library/tal_frdmn947/board/frdmn947/inc;../../firmware/common/library/tal_frdmn947/core/inc;../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/cmsis/core;../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/cmsis/device;../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers;../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/cm33_core1;../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/romapi/flash;../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/periph;../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/lists;../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/osa;../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/osa/config;../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/gpio;../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/middleware/sdmmc/common;../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/middleware/sdmmc/host/usdhc;../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/middleware/sdmmc/osa;../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/middleware/sdmmc/sd;../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/inc;../../firmware/common/library/adler32;../../firmware/common/library/fatfs/src;../inc"
+      debug_register_definition_file="$(ProjectDir)/MCXN947_cm33_core0_registers.xml"
+      debug_stack_pointer_start="__stack_end__"
+      debug_start_from_entry_point_symbol="Yes"
+      debug_target_connection="J-Link"
+      gcc_enable_all_warnings="Yes"
+      gcc_entry_point="Reset_Handler"
+      gcc_main_return_type="Yes"
+      gcc_main_warning="Yes"
+      gcc_strict_prototypes_warning="Yes"
+      gcc_uninitialized_variables_warning="Yes"
+      gcc_unused_variable_warning="Yes"
+      linker_memory_map_file="$(ProjectDir)/MCXN947_MemoryMap.xml"
+      linker_printf_fmt_level="long long"
+      linker_printf_width_precision_supported="Yes"
+      project_directory=""
+      project_type="Executable"
+      target_reset_script="Reset();"
+      target_script_file="$(ProjectDir)/MCXN947_Target.js"
+      target_trace_initialize_script="EnableTrace(&quot;$(TraceInterfaceType)&quot;)" />
+    <configuration Name="Debug" c_preprocessor_definitions="__DEBUG__" />
+    <configuration
+      Name="Flash"
+      c_preprocessor_definitions="__FLASH__;__VECTORS_IN_RAM"
+      linker_section_placement_file="$(ProjectDir)/placement_flash.xml"
+      linker_section_placements_segments="" />
+    <configuration Name="Flash to TCM Release" linker_output_format="bin" />
+    <configuration
+      Name="Flast to TCM"
+      c_preprocessor_definitions="__FLASH__;__VECTORS_IN_RAM"
+      linker_section_placement_file="$(ProjectDir)/placement_flash_to_tcm.xml" />
+    <configuration
+      Name="Release"
+      c_preprocessor_definitions="__RELEASE__"
+      gcc_optimization_level="Level 2 for size" />
+    <configuration
+      Name="TCM"
+      c_preprocessor_definitions="__TCM__;__VTOR_CONFIG"
+      linker_section_placement_file="$(ProjectDir)/placement_tcm.xml" />
+    <folder Name="Source Files">
+      <configuration Name="Common" filter="c;cpp;cxx;cc;h;s;asm;inc" />
+      <folder Name="library">
+        <folder Name="adler32">
+          <file file_name="../../firmware/common/library/adler32/adler32.c" />
+        </folder>
+        <folder Name="fatfs">
+          <file file_name="../../firmware/common/library/fatfs/src/ff.c" />
+          <file file_name="../../firmware/common/library/fatfs/src/ffunicode.c" />
+        </folder>
+        <folder Name="tal">
+          <folder Name="board">
+            <file file_name="../../firmware/common/library/tal_frdmn947/board/frdmn947/src/clock_config.c" />
+            <file file_name="../../firmware/common/library/tal_frdmn947/board/frdmn947/src/fatfs_diskio.c" />
+            <file file_name="../../firmware/common/library/tal_frdmn947/board/frdmn947/src/pin_mux.c" />
+            <file file_name="../../firmware/common/library/tal_frdmn947/board/frdmn947/src/sdmmc_config.c" />
+            <file file_name="../../firmware/common/library/tal_frdmn947/board/frdmn947/src/talboard.c" />
+            <file file_name="../../firmware/common/library/tal_frdmn947/board/frdmn947/src/talgpio.c" />
+            <file file_name="../../firmware/common/library/tal_frdmn947/board/frdmn947/src/talled.c" />
+          </folder>
+          <folder Name="core">
+            <file file_name="../../firmware/common/library/tal_frdmn947/core/src/tal.c" />
+            <file file_name="../../firmware/common/library/tal_frdmn947/core/src/talcom.c" />
+            <file file_name="../../firmware/common/library/tal_frdmn947/core/src/taldebug.c" />
+            <file file_name="../../firmware/common/library/tal_frdmn947/core/src/talmem.c" />
+            <file file_name="../../firmware/common/library/tal_frdmn947/core/src/talmisc.c" />
+          </folder>
+          <folder Name="cpu">
+            <folder Name="sdk">
+              <folder Name="cmsis">
+                <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/cmsis/device/system_MCXN947_cm33_core0.c">
+                  <configuration
+                    Name="Common"
+                    default_code_section=".init"
+                    default_const_section=".init_rodata" />
+                </file>
+              </folder>
+              <folder Name="components">
+                <folder Name="gpio">
+                  <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/components/gpio/fsl_adapter_gpio.c" />
+                </folder>
+              </folder>
+              <folder Name="drivers">
+                <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_cache.c" />
+                <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_clock.c" />
+                <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_common_arm.c" />
+                <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/romapi/flash/src/fsl_flash.c" />
+                <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_gpio.c" />
+                <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_lpflexcomm.c" />
+                <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_lpuart.c" />
+                <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_reset.c" />
+                <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_spc.c" />
+                <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_usdhc.c" />
+                <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_wwdt.c" />
+              </folder>
+              <folder Name="osa_port">
+                <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/osa_port/fsl_os_abstraction_tcts.c" />
+              </folder>
+              <folder Name="sdmmc">
+                <folder Name="common">
+                  <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/middleware/sdmmc/common/fsl_sdmmc_common.c" />
+                </folder>
+                <folder Name="host">
+                  <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/middleware/sdmmc/host/usdhc/non_blocking/fsl_sdmmc_host.c" />
+                </folder>
+                <folder Name="osa">
+                  <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/middleware/sdmmc/osa/fsl_sdmmc_osa.c" />
+                </folder>
+                <folder Name="sd">
+                  <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/middleware/sdmmc/sd/fsl_sd.c" />
+                </folder>
+              </folder>
+            </folder>
+            <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/src/talcpu.c" />
+            <file file_name="../../firmware/common/library/tal_frdmn947/cpu/nxp/mcxnx4x/src/talcpu_com.c" />
+          </folder>
+        </folder>
+        <folder Name="tcts">
+          <file file_name="../../firmware/common/library/tcts/src/tcts.c" />
+        </folder>
+      </folder>
+      <folder Name="src">
+        <file file_name="../src/flash.c" />
+        <file file_name="../src/main.c" />
+        <file file_name="../src/terminal.c" />
+        <file file_name="../src/xmempool.c" />
+      </folder>
+    </folder>
+    <folder Name="System Files">
+      <file file_name="MCXN947_cm33_core0_Vectors.s" />
+      <file file_name="MCXN947_Startup.s" />
+      <file file_name="thumb_crt0.s" />
+    </folder>
+  </project>
+</solution>

@@ -1,0 +1,86 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault;SecureFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBuffer>
+  <FrameBufferWindow width="1340279359" keepAspectRatio="0" zoomToFitWindow="0" showGrid="0" addressSpace="" format="0" height="-1432196667" autoEvaluate="0" scaleFactor="1" refreshPeriod="0" name="frdmn947-mbrtu-tap_Flash Debug" addressText="" accessByDisplayWidth="0"/>
+  <FrameBufferWindow width="1340279359" keepAspectRatio="0" zoomToFitWindow="0" showGrid="0" addressSpace="" format="0" height="-1432196667" autoEvaluate="0" scaleFactor="1" refreshPeriod="0" name="frdmn947-mbrtu-tap_Flash Release" addressText="" accessByDisplayWidth="0"/>
+ </FrameBuffer>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="frdmn947-mbrtu-tap_Flash Debug" sizeText="sizeof(PCAPHeader)" addressText="&amp;PCAPHeader"/>
+  <MemoryWindow addressSpace="" dataSize="4" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="frdmn947-mbrtu-tap_Flash Release" sizeText="32" addressText="0x10100"/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="frdmn947-mbrtu-tap_Flash Debug" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="frdmn947-mbrtu-tap_Flash Release" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="frdmn947-mbrtu-tap_Flash Debug" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="frdmn947-mbrtu-tap_Flash Release" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="frdmn947-mbrtu-tap_Flash Debug" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" viewType="4" addressOrder="0" columnsText="" refreshPeriod="0" name="frdmn947-mbrtu-tap_Flash Release" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="frdmn947-mbrtu-tap"/>
+  <ProjectSessionItem path="frdmn947-mbrtu-tap;frdmn947-mbrtu-tap"/>
+  <ProjectSessionItem path="frdmn947-mbrtu-tap;frdmn947-mbrtu-tap;Source Files"/>
+  <ProjectSessionItem path="frdmn947-mbrtu-tap;frdmn947-mbrtu-tap;Source Files;src"/>
+  <ProjectSessionItem path="frdmn947-mbrtu-tap;frdmn947-mbrtu-tap;Source Files;webpage"/>
+  <ProjectSessionItem path="frdmn947-mbrtu-tap;frdmn947-mbrtu-tap;System Files"/>
+ </Project>
+ <Register1>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/MSPLIM;CPU/PSPLIM;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="frdmn947-mbrtu-tap_Flash Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/MSPLIM;CPU/PSPLIM;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="frdmn947-mbrtu-tap_Flash Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/MSPLIM;CPU/PSPLIM;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="frdmn947-mbrtu-tap_Flash Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/MSPLIM;CPU/PSPLIM;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="frdmn947-mbrtu-tap_Flash Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/MSPLIM;CPU/PSPLIM;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="frdmn947-mbrtu-tap_Flash Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/MSPLIM;CPU/PSPLIM;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="frdmn947-mbrtu-tap_Flash Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/MSPLIM;CPU/PSPLIM;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="frdmn947-mbrtu-tap_Flash Debug" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow invisibleNodes="" visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/MSPLIM;CPU/PSPLIM;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="frdmn947-mbrtu-tap_Flash Release" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="630" useTextEdit="1" path="../src/main.c" left="0" top="615" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="230" useTextEdit="1" path="../common/src/etc.c" left="0" top="209" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="268" useTextEdit="1" path="../common/src/nvm.c" left="0" top="255" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="156" useTextEdit="1" path="../common/src/cert.c" left="0" top="146" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="380" useTextEdit="1" path="../src/mbrtu_tap.c" left="0" top="370" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="44" useTextEdit="1" path="../common/library/tal_frdmn947/board/frdmn947/src/talled.c" left="0" top="28" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="4" y="356" useTextEdit="1" path="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_clock.h" left="0" top="343" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="14" y="203" useTextEdit="1" path="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_gpio.c" left="0" top="190" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="193" useTextEdit="1" path="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/sdk/drivers/fsl_gpio.h" left="0" top="180" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="14" y="363" useTextEdit="1" path="../common/library/lwip/src/core/timeouts.c" left="0" top="360" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="16" y="3658" useTextEdit="1" path="../common/library/lwip/src/api/sockets.c" left="0" top="3643" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="209" useTextEdit="1" path="../common/library/lwip/src/api/tcpip.c" left="0" top="196" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="360" useTextEdit="1" path="../common/library/tal_frdmn947/cpu/nxp/mcxnx4x/src/talcpu.c" left="0" selected="1" top="339" codecName="Default"/>
+ </Files>
+ <EMStudioWindow activeProject="frdmn947-mbrtu-tap" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Flash Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="D:/Projekte/Embedded/ARM/frdmn947/frdmn947-mbrtu-tap/firmware/src" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>
